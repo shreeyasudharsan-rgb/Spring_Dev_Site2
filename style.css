@@ -1,0 +1,55 @@
+body{
+    background-image: url(garden.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 3%;
+}
+p{
+    color:gray;
+    background-color: rgb(204, 192, 181);
+    border-style: groove;
+    padding:1%;
+    font-family: lilita;
+
+}
+
+h1{
+    font-family: molle;
+    background-color: rgb(195, 140, 220);
+    color: lavender;
+    text-align: center;
+}
+h2{
+    font-family: lilita;
+    background-color: rgb(195, 140, 220);
+    color: lavender;
+    display: inline-block;
+    padding: 1%;
+}
+
+@font-face {
+    font-family: molle;
+    src: url(Molle-Italic.ttf);
+}
+@font-face {
+    font-family: lilita;
+    src: url(LilitaOne-Regular.ttf);
+}
+img{
+    display: block;
+    border-style: dotted;
+    border-color: rgb(45, 45, 45);
+}
+video{
+    align-items: center;
+}
+a{
+    display: block;
+    color:black;
+    background-color: rosybrown;
+}
+a:hover{
+    color:yellow;
+}
